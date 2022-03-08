@@ -1,1 +1,14 @@
 /*Codes By Mahdi Tasha*/
+
+/*Importing Our Font*/
+@import "font/Yekan.css";
+
+/*Default Styles*/
+button {cursor: pointer;}
+a {text-decoration: none;}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Yekan, sans-serif;
+}
