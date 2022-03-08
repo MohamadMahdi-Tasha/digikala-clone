@@ -3,9 +3,17 @@
 /*Importing Our Font*/
 @import "font/Yekan.css";
 
+/*Variables*/
+:root {
+    --light: #F0F0F1;
+    --darker-light: #A1A3A8;
+}
+
 /*Default Styles*/
 button {cursor: pointer;}
 a {text-decoration: none;}
+body {overflow-x: hidden;}
+img {pointer-events: none;}
 
 * {
     padding: 0;
@@ -15,7 +23,7 @@ a {text-decoration: none;}
 
 /*Styles*/
 .w-100 {width: 100%;}
-.w-50 {width: 30%;}
+.w-50 {width: 50%;}
 .w-30 {width: 30%;}
 .w-20 {width: 20%;}
 .w-70 {width: 70%;}
@@ -32,3 +40,22 @@ a {text-decoration: none;}
 .ai-center {align-items: center;}
 .jc-center {justify-content: center;}
 .jc-sb {justify-content: space-between;}
+.jc-end {justify-content: end;}
+.bg-light {background-color: var(--light);}
+.c-darker-light {color: var(--darker-light);}
+.rounded {border-radius: .5rem;}
+.cur-p {cursor: pointer;}
+.d-none {display: none;}
+.transition-2 {transition: .2s;}
+.hover-bg-darker-light:hover {background-color: #d2d2d2;}
+.fw-bold {font-weight: bold;}
+.bg-none {background-color: unset;}
+.fs-1 {font-size: 1rem;}
+.b-1-solid-header {border: 1px solid #e0e0e2;}
+.c-black {color: black;}
+.c-white {color: white;}
+.w-2-dot-5 {width: 2.5rem;}
+.h-2-dot-5 {height: 2.5rem;}
+.p-dot-75 {padding: .75rem;}
+.circle {border-radius: 100%;}
+.fw-normal {font-weight: normal;}
