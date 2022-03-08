@@ -7,6 +7,7 @@
 :root {
     --light: #F0F0F1;
     --darker-light: #A1A3A8;
+    --pink: #fb3449;
 }
 
 /*Default Styles*/
@@ -59,3 +60,15 @@ img {pointer-events: none;}
 .p-dot-75 {padding: .75rem;}
 .circle {border-radius: 100%;}
 .fw-normal {font-weight: normal;}
+.list-unstyled {list-style: none;}
+.b-none {border: none;}
+.op-0 {opacity: 0;}
+.w-10 {width: 10%;}
+.mb-1 {margin-bottom: 1rem;}
+.bb-1-white {border-bottom: 1px solid white;}
+.bl-1-light {border-left: 1px solid var(--light);}
+.hover-bb-pink:hover {border-bottom-color: var(--pink);}
+.this-li-a-img-w-10 > li > a > img {width: 10%}
+.text-no-break {white-space: nowrap;}
+.shadow {box-shadow: 0 0 30px rgba(0,0,0,.2);}
+.p-fixed {position: fixed;}
