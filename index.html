@@ -28,31 +28,41 @@
     <header class="shadow p-fixed w-100">
         <!--Top Side Gif-->
         <div class="w-100"><img class="w-100" src="src/img/header/top-side-banner.jpg" alt="قرعه کشی بزرگ"></div>
+        <!--Top Side On Mobile-->
+        <div class="show-on-1024 media-1024-d-inline-flex jc-sb ai-center p-dot-5 w-100">
+            <button class="mr-dot-5 w-2-dot-5 h-2-dot-5 d-flex jc-center ai-center bg-none b-none circle transition-2 active-bg-darker-light"><i class="bi bi-list"></i></button>
+            <img src="src/img/header/logo.svg" alt="لوگو | دیجیکالا">
+            <button class="w-2-dot-5 ml-2 h-2-dot-5 d-flex jc-center ai-center bg-none b-none circle transition-2 active-bg-darker-light"><i class="bi bi-question-square"></i></button>
+        </div>
         <!--Top Side-->
         <div class="w-100 d-inline-flex jc-sb ai-center">
             <!--Right Side-->
-            <div class="d-inline-flex ai-center w-50 p-dot-5">
-                <img class="ml-1 mr-1" src="src/img/header/logo.svg" alt="لوگو | دیجیکالا">
-                <div class="d-inline-flex bg-light c-darker-light w-100 p-dot-75 rounded cur-p hover-bg-darker-light transition-2">
+            <div class="d-inline-flex ai-center w-50 p-dot-5 media-1024-w-100">
+                <img class="ml-1 mr-1 media-1024-d-none" src="src/img/header/logo.svg" alt="لوگو | دیجیکالا">
+                <div class="d-inline-flex bg-light c-darker-light w-100 p-dot-75 rounded cur-p hover-bg-darker-light transition-2 media-1024-mr-1">
                     <i class="ml-dot-5 bi bi-search"></i>
                     <h5 class="fw-normal">جستجو</h5>
                 </div>
             </div>
             <!--Left Side-->
-            <div class="w-50 d-inline-flex ai-center jc-end p-dot-5">
-                <a href="#" class="ml-1">
+            <div class="w-50 d-inline-flex ai-center jc-end p-dot-5 media-1024-jc-sb media-1024-w-auto">
+                <a href="#" class="ml-1 media-1024-d-none">
                     <button class="p-dot-5 d-inline-flex ai-center jc-center bg-none rounded b-1-solid-header hover-bg-darker-light transition-2">
                         <i class="bi ml-dot-5 bi-box-arrow-in-left fs-1"></i>
                         ورود | ثبت نام
                     </button>
                 </a>
-                <a href="#" class="c-black d-flex jc-center ai-center w-2-dot-5 h-2-dot-5 ml-1 circle hover-bg-darker-light transition-2"><i class="bi bi-cart"></i></a>
+                <a class="show-on-1024 c-black d-inline-flex text-no-break ai-center" href="#">
+                    <i class="bi ml-dot-5 bi-box-arrow-in-left fs-1"></i>
+                    ورود
+                </a>
+                <a href="#" class="c-black d-flex jc-center ai-center w-2-dot-5 h-2-dot-5 ml-1 circle hover-bg-darker-light transition-2 media-1024-mr-1"><i class="bi bi-cart"></i></a>
             </div>
         </div>
         <!--Bottom Side-->
         <div class="d-inline-flex jc-sb ai-center w-100">
             <!--Right Side-->
-            <ul class="d-inline-flex w-50 ai-center this-li-a-img-w-10 list-unstyled">
+            <ul class="d-inline-flex w-50 ai-center this-li-a-img-w-10 list-unstyled media-1024-d-none">
                 <li>
                     <button class="d-inline-flex bg-none b-none bl-1-light bb-1-white hover-bb-pink transition-2 p-1 text-no-break fs-1">
                         <i class="bi bi-list ml-dot-5"></i>
@@ -81,10 +91,13 @@
                 <li><a class="d-flex jc-center ai-center p-1 bb-1-white transition-2 hover-bb-pink text-no-break c-darker-light" href="#"><h5 class="fs-1 fw-normal">فروشنده شوید!</h5></a></li>
             </ul>
             <!--Left Side-->
-            <div class="p-dot-5">
-                <button class="p-dot-5 bg-none b-none c-black fw-normal d-inline-flex ai-center jc-center">
-                    <i class="bi bi-geo-alt ml-dot-5"></i>
-                    لطفا شهر خود را انتخواب کنید
+            <div class="p-dot-5 ai-center d-inline-flex media-1024-w-100">
+                <button class="p-dot-5 bg-none b-none c-black fw-normal d-inline-flex ai-center jc-center media-1024-w-100 media-1024-jc-sb">
+                    <div>
+                        <i class="bi bi-geo-alt ml-dot-5 media-1024-c-orange media-1024-mr-1"></i>
+                        لطفا شهر خود را انتخواب کنید
+                    </div>
+                    <i class="show-on-1024 bi bi-chevron-left c-black ml-1"></i>
                 </button>
             </div>
         </div>
