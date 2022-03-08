@@ -90,3 +90,5 @@ img {pointer-events: none;}
     .media-1024-w-auto {width: auto;}
     .media-1024-m-0 {margin: 0;}
 }
+
+@media (max-width: 410px) {.media-410-h-1 {height: 1rem;}}
