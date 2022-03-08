@@ -76,6 +76,9 @@ img {pointer-events: none;}
 .p-fixed {position: fixed;}
 .show-on-1024 {display: none;}
 .ml-2 {margin-left: 2rem;}
+.cur-grab {cursor: grab;}
+.cur-grab:active {cursor: grabbing;}
+.object-fit {object-fit: cover;}
 
 /*Media Queries*/
 @media (max-width: 1024px) {

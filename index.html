@@ -19,13 +19,15 @@
     <link rel="stylesheet" href="src/style.css">
     <!--Linking Bootstrap Icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!--Linking Swiper Js, Css File-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <!--Title Of Page-->
     <title>فروشگاه اینترنتی دیجیکالا کلون</title>
 </head>
 <!--Pages Content Goes Here-->
 <body dir="rtl">
     <!--Header Section-->
-    <header class="shadow p-fixed w-100">
+    <header class="shadow w-100">
         <!--Top Side Image-->
         <div class="w-100"><img class="w-100 media-410-h-1" src="src/img/header/top-side-banner.jpg" alt="قرعه کشی بزرگ"></div>
         <!--Top Side On Mobile-->
@@ -102,5 +104,26 @@
             </div>
         </div>
     </header>
+    <!--Slider Section-->
+    <section>
+        <!-- Slider main container -->
+        <div class="swiper w-100" dir="ltr">
+            <div class="swiper-wrapper cur-grab w-100">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="src/img/swipper-section/img1.jpg"  style="height: 25rem;" class="w-100 object-fit" alt="Swipper Image"></div>
+                <div class="swiper-slide"><img src="src/img/swipper-section/img2.jpg"  style="height: 25rem;" class="w-100 object-fit" alt="Swipper Image"></div>
+                <div class="swiper-slide"><img src="src/img/swipper-section/img3.jpg"  style="height: 25rem;" class="w-100 object-fit" alt="Swipper Image"></div>
+                <div class="swiper-slide"><img src="src/img/swipper-section/img4.jpg"  style="height: 25rem;" class="w-100 object-fit" alt="Swipper Image"></div>
+                <div class="swiper-slide"><img src="src/img/swipper-section/img5.jpg"  style="height: 25rem;" class="w-100 object-fit" alt="Swipper Image"></div>
+                <div class="swiper-slide"><img src="src/img/swipper-section/img6.jpg"  style="height: 25rem;" class="w-100 object-fit" alt="Swipper Image"></div>
+                <div class="swiper-slide"><img src="src/img/swipper-section/img7.jpg"  style="height: 25rem;" class="w-100 object-fit" alt="Swipper Image"></div>
+                <div class="swiper-slide"><img src="src/img/swipper-section/img8.jpg"  style="height: 25rem;" class="w-100 object-fit" alt="Swipper Image"></div>
+                <div class="swiper-slide"><img src="src/img/swipper-section/img9.jpg"  style="height: 25rem;" class="w-100 object-fit" alt="Swipper Image"></div>
+            </div>
+        </div>
+    </section>
+    <!--Linking Swiper Js-->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="src/scripts/Swipper.js"></script>
 </body>
 </html>
