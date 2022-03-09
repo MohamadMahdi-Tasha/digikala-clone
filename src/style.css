@@ -85,6 +85,7 @@ img {pointer-events: none;}
 .gap-1 {gap: 1rem;}
 .w-4 {width: 4rem;}
 .h-4 {height: 4rem;}
+.w-40 {width: 40%;}
 
 /*Media Queries*/
 @media (max-width: 1024px) {
