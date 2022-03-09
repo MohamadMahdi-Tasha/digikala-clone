@@ -1,8 +1,15 @@
 // Codes By Mahdi Tasha
-const swiper = new Swiper('.swiper', {
-    freeMode: {
-        enabled: true,
-        sticky: true,
+const swiper_1 = new Swiper(".swiper", {
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
     },
-    autoplay: {delay: 5000,},
+});
+
+const swiper_2 = new Swiper(".swiper-slider-per-view", {
+    slidesPerView: 6,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    }
 });
