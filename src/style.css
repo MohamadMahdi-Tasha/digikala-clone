@@ -80,6 +80,11 @@ img {pointer-events: none;}
 .cur-grab {cursor: grab;}
 .cur-grab:active {cursor: grabbing;}
 .object-fit {object-fit: cover;}
+.d-grid {display: grid;}
+.grid-col-8 {grid-template-columns: repeat(8, 1fr);}
+.gap-1 {gap: 1rem;}
+.w-4 {width: 4rem;}
+.h-4 {height: 4rem;}
 
 /*Media Queries*/
 @media (max-width: 1024px) {
