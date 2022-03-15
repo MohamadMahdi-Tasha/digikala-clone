@@ -115,6 +115,11 @@ img {pointer-events: none;}
 .bg-no-repeat {background-repeat: no-repeat;}
 .c-green {color: var(--green);}
 .grid-col-4 {grid-template-columns: repeat(4, 1fr);}
+.ta-center {text-align: center;}
+.grid-col-5 {grid-template-columns: repeat(5, 1fr);}
+.gap-2 {gap: 2rem;}
+.grid-col-2 {grid-template-columns: repeat(2, 1fr);}
+.mb-2 {margin-bottom: 2rem}
 
 /*Media Queries*/
 @media (max-width: 1374px) {
