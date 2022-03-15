@@ -158,7 +158,6 @@ img {pointer-events: none;}
 
 @media (max-width: 410px) {
     .media-410-h-1 {height: 1rem;}
-    .my-slide-6-per-view {width: 100% !important;}
     .grid-col-8 {grid-template-columns: repeat(2, 1fr) !important;}
     .media-410-ai-start {align-items: start;}
     .media-410-mb-1 {margin-bottom: 1rem;}
