@@ -166,7 +166,7 @@ img {pointer-events: none;}
     .grid-col-8 {grid-template-columns: repeat(2, 1fr) !important;}
     .media-410-ai-start {align-items: start;}
     .media-410-mb-1 {margin-bottom: 1rem;}
-    .media-719-grid-col-1 {grid-template-columns: repeat(1, 1fr);}
+    .media-410-grid-col-1 {grid-template-columns: repeat(1, 1fr);}
     .media-410-flex-d-c {
         display: flex;
         flex-direction: column;
