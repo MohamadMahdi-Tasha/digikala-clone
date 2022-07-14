@@ -10,3 +10,7 @@ a {text-decoration: none;}
 	margin: 0;
 	box-sizing: border-box;
 }
+
+body > section, body > section{
+	display: none;
+}
