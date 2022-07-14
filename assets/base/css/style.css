@@ -1,4 +1,7 @@
 /* Codes By Mahdi Tasha*/
+/*Importing 'Iran Yekan' Font*/
+@import '../fonts/font.css';
+
 /*Variables*/
 :root {	
 	--pink: #fb3449;
@@ -14,13 +17,11 @@ button {cursor: pointer;}
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-}
-
-body > section{
-	display: none;
+	font-family: 'IranYekanRegular', 'IranYekanMedium', sans-serif;
 }
 
 /*Styles*/
+body > section{display: none;}
 .pointer-events-none {pointer-events: none;}
 .pointer-events-visible {pointer-events: visible;}
 .aspect-ratio {aspect-ratio: 1/1;}

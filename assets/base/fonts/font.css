@@ -1,0 +1,28 @@
+/*Setting Fonts*/
+@font-face {
+    font-family: 'IranYekanBold';
+    font-style: bold;
+    font-display: swap;
+    src: url('iranyekanwebbold.woff2');
+}
+
+@font-face {
+    font-family: 'IranYekanExteraBold';
+    font-style: extrabold;
+    font-display: swap;
+    src: url('iranyekanwebextrabold.woff');
+}
+
+@font-face {
+    font-family: 'IranYekanMedium';
+    font-style: medium;
+    font-display: swap;
+    src: url('iranyekanwebmedium.woff');
+}
+
+@font-face {
+    font-family: 'IranYekanRegular';
+    font-style: normal;
+    font-display: swap;
+    src: url('iranyekanwebregular.woff2');
+}
