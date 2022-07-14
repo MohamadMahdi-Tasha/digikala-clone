@@ -21,7 +21,7 @@ button {cursor: pointer;}
 }
 
 /*Styles*/
-body > section{display: none;}
+footer, body > section{display: none;}
 .pointer-events-none {pointer-events: none;}
 .pointer-events-visible {pointer-events: visible;}
 .aspect-ratio {aspect-ratio: 1/1;}
