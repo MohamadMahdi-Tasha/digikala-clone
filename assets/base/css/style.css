@@ -1,9 +1,14 @@
 /* Codes By Mahdi Tasha*/
-/* Css Reset */
+/*Variables*/
+:root {	
+	--pink: #fb3449;
+	--darker-pink: #b32735;
+}
 
+
+/* Css Reset */
 img {pointer-events: none;}
 button {cursor: pointer;}
-a {text-decoration: none;}
 
 * {
 	padding: 0;
@@ -11,6 +16,18 @@ a {text-decoration: none;}
 	box-sizing: border-box;
 }
 
-body > section, body > section{
+body > section{
 	display: none;
 }
+
+/*Styles*/
+.pointer-events-none {pointer-events: none;}
+.pointer-events-visible {pointer-events: visible;}
+.aspect-ratio {aspect-ratio: 1/1;}
+.support-btn {width: 50px;}
+.bg-pink {background-color: var(--pink);}
+.text-pink {color: var(--pink);}
+.transition {transition: .3s;}
+
+/*Hover And Active , ... Styles*/
+.hover-bg-darker-pink:hover {background-color: var(--darker-pink);}
